@@ -8,7 +8,7 @@ services:
       - "/home/ec2-user/:/usr/local/tomcat/webapps/"
       
       
-   service_two:
+  service_two:
         image: 'tomcat:9'
         ports:
          - "9090:8080"
