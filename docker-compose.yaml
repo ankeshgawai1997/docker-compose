@@ -6,3 +6,16 @@ services:
       - "8080:8080"
     volumes:
       - "/home/ec2-user/:/usr/local/tomcat/webapps/"
+      
+      
+   service_two:
+        image: 'tomcat:9'
+        ports:
+         - "9090:8080"
+        volumes:
+         - "/home/ec2-user/:/usr/local/tomcat/webapps/"
+      
+      
+      
+      
+      
